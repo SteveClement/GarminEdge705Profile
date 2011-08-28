@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TrainingCenterDatabase xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd">
+
+  <Folders>
+    <Workouts>
+      <Running Name="Running">
+        <WorkoutNameRef>
+          <Id>R-Int(Time)</Id>
+        </WorkoutNameRef>
+      </Running>
+      <Biking Name="Biking"/>
+      <Other Name="Other"/>
+    </Workouts>
+  </Folders>
+
+  <Workouts>
+    <Workout Sport="Running">
+      <Name>R-Int(Time)</Name>
+      <Step xsi:type="Step_t">
+        <StepId>1</StepId>
+        <Duration xsi:type="Distance_t">
+          <Meters>402</Meters>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="HeartRate_t">
+          <HeartRateZone xsi:type="PredefinedHeartRateZone_t">
+            <Number>1</Number>
+          </HeartRateZone>
+        </Target>
+      </Step>
+      <Step xsi:type="Step_t">
+        <StepId>2</StepId>
+        <Duration xsi:type="Distance_t">
+          <Meters>402</Meters>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="HeartRate_t">
+          <HeartRateZone xsi:type="PredefinedHeartRateZone_t">
+            <Number>2</Number>
+          </HeartRateZone>
+        </Target>
+      </Step>
+      <Step xsi:type="Step_t">
+        <StepId>3</StepId>
+        <Duration xsi:type="Distance_t">
+          <Meters>402</Meters>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="HeartRate_t">
+          <HeartRateZone xsi:type="PredefinedHeartRateZone_t">
+            <Number>3</Number>
+          </HeartRateZone>
+        </Target>
+      </Step>
+      <Step xsi:type="Repeat_t">
+        <StepId>6</StepId>
+        <Repetitions>3</Repetitions>
+        <Child xsi:type="Step_t">
+          <StepId>4</StepId>
+          <Duration xsi:type="Time_t">
+            <Seconds>420</Seconds>
+          </Duration>
+          <Intensity>Active</Intensity>
+          <Target xsi:type="HeartRate_t">
+            <HeartRateZone xsi:type="PredefinedHeartRateZone_t">
+              <Number>3</Number>
+            </HeartRateZone>
+          </Target>
+        </Child>
+        <Child xsi:type="Step_t">
+          <StepId>5</StepId>
+          <Duration xsi:type="Time_t">
+            <Seconds>60</Seconds>
+          </Duration>
+          <Intensity>Resting</Intensity>
+          <Target xsi:type="HeartRate_t">
+            <HeartRateZone xsi:type="PredefinedHeartRateZone_t">
+              <Number>2</Number>
+            </HeartRateZone>
+          </Target>
+        </Child>
+      </Step>
+      <Step xsi:type="Step_t">
+        <StepId>7</StepId>
+        <Duration xsi:type="Distance_t">
+          <Meters>402</Meters>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="HeartRate_t">
+          <HeartRateZone xsi:type="PredefinedHeartRateZone_t">
+            <Number>2</Number>
+          </HeartRateZone>
+        </Target>
+      </Step>
+      <Step xsi:type="Step_t">
+        <StepId>8</StepId>
+        <Duration xsi:type="Distance_t">
+          <Meters>402</Meters>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="HeartRate_t">
+          <HeartRateZone xsi:type="PredefinedHeartRateZone_t">
+            <Number>1</Number>
+          </HeartRateZone>
+        </Target>
+      </Step>
+      <Notes>Intervals can be prescribed in time or distance. This workout uses distance for warm up and cool down. It prescribes the repeated interval steps in time and the rest steps in distance. In this particular workout, the rest time should be kept relatively short. The interval time is similar to mile repeats. This can be very taxing and should be conducted at a slow pace and lower heart rate than shorter intervals. This requires less rest, but allows you to maintain a higher heart rate throughout the course of the entire workout. Some people call this sort of workout "Cruise Intervals." You should adjust the duration to fit your own ability. Feel free to walk during the rest segment, but keep moving so you don't get cold or stiff. It is very important to warm-up and cool-down before and after all interval workouts and you should adjust the duration of these sets to accommodate your own personal needs and to fit your workout environment.
+
+Template by: www.TrainingPeaks.com</Notes>
+      <Creator xsi:type="Device_t">
+        <Name>Training Center Default Device</Name>
+        <UnitId>0</UnitId>
+        <ProductID>0</ProductID>
+        <Version>
+          <VersionMajor>0</VersionMajor>
+          <VersionMinor>0</VersionMinor>
+          <BuildMajor>0</BuildMajor>
+          <BuildMinor>0</BuildMinor>
+        </Version>
+      </Creator>
+    </Workout>
+  </Workouts>
+
+  <Author xsi:type="Application_t">
+    <Name>Garmin Training Center</Name>
+    <Build>
+      <Version>
+        <VersionMajor>3</VersionMajor>
+        <VersionMinor>1</VersionMinor>
+        <BuildMajor>5</BuildMajor>
+        <BuildMinor>0</BuildMinor>
+      </Version>
+      <Type>Release</Type>
+      <Time>Apr  4 2011, 11:59:50</Time>
+      <Builder>sqa</Builder>
+    </Build>
+    <LangID>en</LangID>
+    <PartNumber>006-A0183-00</PartNumber>
+  </Author>
+
+</TrainingCenterDatabase>

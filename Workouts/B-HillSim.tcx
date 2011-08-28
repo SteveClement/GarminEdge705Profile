@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TrainingCenterDatabase xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd">
+
+  <Folders>
+    <Workouts>
+      <Running Name="Running"/>
+      <Biking Name="Biking">
+        <WorkoutNameRef>
+          <Id>B-HillSim</Id>
+        </WorkoutNameRef>
+      </Biking>
+      <Other Name="Other"/>
+    </Workouts>
+  </Folders>
+
+  <Workouts>
+    <Workout Sport="Biking">
+      <Name>B-HillSim</Name>
+      <Step xsi:type="Step_t">
+        <StepId>1</StepId>
+        <Duration xsi:type="Time_t">
+          <Seconds>1200</Seconds>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="HeartRate_t">
+          <HeartRateZone xsi:type="PredefinedHeartRateZone_t">
+            <Number>1</Number>
+          </HeartRateZone>
+        </Target>
+      </Step>
+      <Step xsi:type="Repeat_t">
+        <StepId>4</StepId>
+        <Repetitions>10</Repetitions>
+        <Child xsi:type="Step_t">
+          <StepId>2</StepId>
+          <Duration xsi:type="Time_t">
+            <Seconds>300</Seconds>
+          </Duration>
+          <Intensity>Active</Intensity>
+          <Target xsi:type="Speed_t">
+            <SpeedZone xsi:type="PredefinedSpeedZone_t">
+              <Number>3</Number>
+            </SpeedZone>
+          </Target>
+        </Child>
+        <Child xsi:type="Step_t">
+          <StepId>3</StepId>
+          <Duration xsi:type="Time_t">
+            <Seconds>60</Seconds>
+          </Duration>
+          <Intensity>Resting</Intensity>
+          <Target xsi:type="HeartRate_t">
+            <HeartRateZone xsi:type="PredefinedHeartRateZone_t">
+              <Number>1</Number>
+            </HeartRateZone>
+          </Target>
+        </Child>
+      </Step>
+      <Step xsi:type="Step_t">
+        <StepId>5</StepId>
+        <Duration xsi:type="Time_t">
+          <Seconds>1200</Seconds>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="HeartRate_t">
+          <HeartRateZone xsi:type="PredefinedHeartRateZone_t">
+            <Number>1</Number>
+          </HeartRateZone>
+        </Target>
+      </Step>
+      <Notes>If you live in an area without a lot of hills, you can use your gears to simulate the effect of climbing. Turning a big gear slowly to approximate a hill will mean that your speed remains relatively slow. As you use your gears to simulate the feeling of climbing, you can alternate between sitting and standing. Monitor your heart rate to keep the effort under control.
+
+Template by: www.TrainingPeaks.com</Notes>
+      <Creator xsi:type="Device_t">
+        <Name>Training Center Default Device</Name>
+        <UnitId>0</UnitId>
+        <ProductID>0</ProductID>
+        <Version>
+          <VersionMajor>0</VersionMajor>
+          <VersionMinor>0</VersionMinor>
+          <BuildMajor>0</BuildMajor>
+          <BuildMinor>0</BuildMinor>
+        </Version>
+      </Creator>
+    </Workout>
+  </Workouts>
+
+  <Author xsi:type="Application_t">
+    <Name>Garmin Training Center</Name>
+    <Build>
+      <Version>
+        <VersionMajor>3</VersionMajor>
+        <VersionMinor>1</VersionMinor>
+        <BuildMajor>5</BuildMajor>
+        <BuildMinor>0</BuildMinor>
+      </Version>
+      <Type>Release</Type>
+      <Time>Apr  4 2011, 11:59:50</Time>
+      <Builder>sqa</Builder>
+    </Build>
+    <LangID>en</LangID>
+    <PartNumber>006-A0183-00</PartNumber>
+  </Author>
+
+</TrainingCenterDatabase>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TrainingCenterDatabase xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd">
+
+  <Folders>
+    <Workouts>
+      <Running Name="Running">
+        <WorkoutNameRef>
+          <Id>R-NegativeSplit</Id>
+        </WorkoutNameRef>
+      </Running>
+      <Biking Name="Biking"/>
+      <Other Name="Other"/>
+    </Workouts>
+  </Folders>
+
+  <Workouts>
+    <Workout Sport="Running">
+      <Name>R-NegativeSplit</Name>
+      <Step xsi:type="Step_t">
+        <StepId>1</StepId>
+        <Duration xsi:type="Time_t">
+          <Seconds>120</Seconds>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="HeartRate_t">
+          <HeartRateZone xsi:type="PredefinedHeartRateZone_t">
+            <Number>1</Number>
+          </HeartRateZone>
+        </Target>
+      </Step>
+      <Step xsi:type="Step_t">
+        <StepId>2</StepId>
+        <Duration xsi:type="Distance_t">
+          <Meters>3218</Meters>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="HeartRate_t">
+          <HeartRateZone xsi:type="PredefinedHeartRateZone_t">
+            <Number>2</Number>
+          </HeartRateZone>
+        </Target>
+      </Step>
+      <Step xsi:type="Step_t">
+        <StepId>3</StepId>
+        <Duration xsi:type="Distance_t">
+          <Meters>3218</Meters>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="HeartRate_t">
+          <HeartRateZone xsi:type="PredefinedHeartRateZone_t">
+            <Number>3</Number>
+          </HeartRateZone>
+        </Target>
+      </Step>
+      <Step xsi:type="Step_t">
+        <StepId>4</StepId>
+        <Duration xsi:type="Time_t">
+          <Seconds>120</Seconds>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="Speed_t">
+          <SpeedZone xsi:type="PredefinedSpeedZone_t">
+            <Number>1</Number>
+          </SpeedZone>
+        </Target>
+      </Step>
+      <Notes>A negative split workout involves running the second half of a workout slightly faster than the first half. This type of workout is usually prescribed in distance and conducted on an out and back course. Start by warming up for a few minutes so that you can get your heart rate up before starting your main effort. The goal of this type of workout is to teach your body to gradually warm up during the first half of your workout and then develop the ability to get stronger as you progress. Most world-record running race performances are accomplished using a negative split strategy. Adjust the duration and effort to fit your personal ability and goals.  Remember to use your "extra time" on the way back to cool-down.
+
+Template by: www.TrainingPeaks.com</Notes>
+      <Creator xsi:type="Device_t">
+        <Name>Training Center Default Device</Name>
+        <UnitId>0</UnitId>
+        <ProductID>0</ProductID>
+        <Version>
+          <VersionMajor>0</VersionMajor>
+          <VersionMinor>0</VersionMinor>
+          <BuildMajor>0</BuildMajor>
+          <BuildMinor>0</BuildMinor>
+        </Version>
+      </Creator>
+    </Workout>
+  </Workouts>
+
+  <Author xsi:type="Application_t">
+    <Name>Garmin Training Center</Name>
+    <Build>
+      <Version>
+        <VersionMajor>3</VersionMajor>
+        <VersionMinor>1</VersionMinor>
+        <BuildMajor>5</BuildMajor>
+        <BuildMinor>0</BuildMinor>
+      </Version>
+      <Type>Release</Type>
+      <Time>Apr  4 2011, 11:59:50</Time>
+      <Builder>sqa</Builder>
+    </Build>
+    <LangID>en</LangID>
+    <PartNumber>006-A0183-00</PartNumber>
+  </Author>
+
+</TrainingCenterDatabase>

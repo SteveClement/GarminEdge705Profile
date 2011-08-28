@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TrainingCenterDatabase xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd">
+
+  <Folders>
+    <Workouts>
+      <Running Name="Running">
+        <WorkoutNameRef>
+          <Id>R-Base(Time)</Id>
+        </WorkoutNameRef>
+      </Running>
+      <Biking Name="Biking"/>
+      <Other Name="Other"/>
+    </Workouts>
+  </Folders>
+
+  <Workouts>
+    <Workout Sport="Running">
+      <Name>R-Base(Time)</Name>
+      <Step xsi:type="Step_t">
+        <StepId>1</StepId>
+        <Duration xsi:type="Time_t">
+          <Seconds>300</Seconds>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="Speed_t">
+          <SpeedZone xsi:type="PredefinedSpeedZone_t">
+            <Number>1</Number>
+          </SpeedZone>
+        </Target>
+      </Step>
+      <Step xsi:type="Step_t">
+        <StepId>2</StepId>
+        <Duration xsi:type="Time_t">
+          <Seconds>600</Seconds>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="HeartRate_t">
+          <HeartRateZone xsi:type="PredefinedHeartRateZone_t">
+            <Number>2</Number>
+          </HeartRateZone>
+        </Target>
+      </Step>
+      <Step xsi:type="Step_t">
+        <StepId>3</StepId>
+        <Duration xsi:type="Time_t">
+          <Seconds>300</Seconds>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="Speed_t">
+          <SpeedZone xsi:type="PredefinedSpeedZone_t">
+            <Number>1</Number>
+          </SpeedZone>
+        </Target>
+      </Step>
+      <Notes>Base workouts can be prescribed in either distance or time. This template uses time. Adjust the duration of each step to fit your own goals. Most of your running/walking should be at a base pace that allows casual conversation. Your heart rate should be elevated from rest, but should not be too high. Most of the time, this equates to Zones 1 and 2.
+
+Template by: www.TrainingPeaks.com</Notes>
+      <Creator xsi:type="Device_t">
+        <Name>Training Center Default Device</Name>
+        <UnitId>0</UnitId>
+        <ProductID>0</ProductID>
+        <Version>
+          <VersionMajor>0</VersionMajor>
+          <VersionMinor>0</VersionMinor>
+          <BuildMajor>0</BuildMajor>
+          <BuildMinor>0</BuildMinor>
+        </Version>
+      </Creator>
+    </Workout>
+  </Workouts>
+
+  <Author xsi:type="Application_t">
+    <Name>Garmin Training Center</Name>
+    <Build>
+      <Version>
+        <VersionMajor>3</VersionMajor>
+        <VersionMinor>1</VersionMinor>
+        <BuildMajor>5</BuildMajor>
+        <BuildMinor>0</BuildMinor>
+      </Version>
+      <Type>Release</Type>
+      <Time>Apr  4 2011, 11:59:50</Time>
+      <Builder>sqa</Builder>
+    </Build>
+    <LangID>en</LangID>
+    <PartNumber>006-A0183-00</PartNumber>
+  </Author>
+
+</TrainingCenterDatabase>

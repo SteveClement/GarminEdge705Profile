@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TrainingCenterDatabase xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd">
+
+  <Folders>
+    <Workouts>
+      <Running Name="Running"/>
+      <Biking Name="Biking">
+        <WorkoutNameRef>
+          <Id>B-SpeedPlay</Id>
+        </WorkoutNameRef>
+      </Biking>
+      <Other Name="Other"/>
+    </Workouts>
+  </Folders>
+
+  <Workouts>
+    <Workout Sport="Biking">
+      <Name>B-SpeedPlay</Name>
+      <Step xsi:type="Step_t">
+        <StepId>1</StepId>
+        <Duration xsi:type="Time_t">
+          <Seconds>300</Seconds>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="HeartRate_t">
+          <HeartRateZone xsi:type="PredefinedHeartRateZone_t">
+            <Number>1</Number>
+          </HeartRateZone>
+        </Target>
+      </Step>
+      <Step xsi:type="Step_t">
+        <StepId>2</StepId>
+        <Duration xsi:type="Time_t">
+          <Seconds>300</Seconds>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="HeartRate_t">
+          <HeartRateZone xsi:type="PredefinedHeartRateZone_t">
+            <Number>2</Number>
+          </HeartRateZone>
+        </Target>
+      </Step>
+      <Step xsi:type="Step_t">
+        <StepId>3</StepId>
+        <Duration xsi:type="Time_t">
+          <Seconds>300</Seconds>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="HeartRate_t">
+          <HeartRateZone xsi:type="PredefinedHeartRateZone_t">
+            <Number>3</Number>
+          </HeartRateZone>
+        </Target>
+      </Step>
+      <Step xsi:type="Repeat_t">
+        <StepId>10</StepId>
+        <Repetitions>5</Repetitions>
+        <Child xsi:type="Repeat_t">
+          <StepId>6</StepId>
+          <Repetitions>2</Repetitions>
+          <Child xsi:type="Step_t">
+            <StepId>4</StepId>
+            <Duration xsi:type="Distance_t">
+              <Meters>1609</Meters>
+            </Duration>
+            <Intensity>Active</Intensity>
+            <Target xsi:type="Speed_t">
+              <SpeedZone xsi:type="PredefinedSpeedZone_t">
+                <Number>7</Number>
+              </SpeedZone>
+            </Target>
+          </Child>
+          <Child xsi:type="Step_t">
+            <StepId>5</StepId>
+            <Duration xsi:type="Distance_t">
+              <Meters>1609</Meters>
+            </Duration>
+            <Intensity>Resting</Intensity>
+            <Target xsi:type="HeartRate_t">
+              <HeartRateZone xsi:type="PredefinedHeartRateZone_t">
+                <Number>2</Number>
+              </HeartRateZone>
+            </Target>
+          </Child>
+        </Child>
+        <Child xsi:type="Repeat_t">
+          <StepId>9</StepId>
+          <Repetitions>2</Repetitions>
+          <Child xsi:type="Step_t">
+            <StepId>7</StepId>
+            <Duration xsi:type="Time_t">
+              <Seconds>60</Seconds>
+            </Duration>
+            <Intensity>Active</Intensity>
+            <Target xsi:type="Speed_t">
+              <SpeedZone xsi:type="PredefinedSpeedZone_t">
+                <Number>8</Number>
+              </SpeedZone>
+            </Target>
+          </Child>
+          <Child xsi:type="Step_t">
+            <StepId>8</StepId>
+            <Duration xsi:type="Time_t">
+              <Seconds>60</Seconds>
+            </Duration>
+            <Intensity>Resting</Intensity>
+            <Target xsi:type="HeartRate_t">
+              <HeartRateZone xsi:type="PredefinedHeartRateZone_t">
+                <Number>2</Number>
+              </HeartRateZone>
+            </Target>
+          </Child>
+        </Child>
+      </Step>
+      <Step xsi:type="Step_t">
+        <StepId>11</StepId>
+        <Duration xsi:type="Time_t">
+          <Seconds>300</Seconds>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="HeartRate_t">
+          <HeartRateZone xsi:type="PredefinedHeartRateZone_t">
+            <Number>2</Number>
+          </HeartRateZone>
+        </Target>
+      </Step>
+      <Step xsi:type="Step_t">
+        <StepId>12</StepId>
+        <Duration xsi:type="Time_t">
+          <Seconds>300</Seconds>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="HeartRate_t">
+          <HeartRateZone xsi:type="PredefinedHeartRateZone_t">
+            <Number>1</Number>
+          </HeartRateZone>
+        </Target>
+      </Step>
+      <Notes>Speed Play by yourself on the bike is a great way to simulate the natural ebb and flow of riding in a pack. This type of workout is usually conducted by choosing landmarks on the horizon and then picking up your speed until you reach that landmark before backing off to rest while you search for another target. You can now accomplish the same goal by programming your Garmin device with intervals of varying distances and times. Remember, Speed-Play is not necessarily an all-out sprint, but the effort can approximate race pace, so be sure to warm up and cool down.
+
+Template by: www.TrainingPeaks.com</Notes>
+      <Creator xsi:type="Device_t">
+        <Name>Training Center Default Device</Name>
+        <UnitId>0</UnitId>
+        <ProductID>0</ProductID>
+        <Version>
+          <VersionMajor>0</VersionMajor>
+          <VersionMinor>0</VersionMinor>
+          <BuildMajor>0</BuildMajor>
+          <BuildMinor>0</BuildMinor>
+        </Version>
+      </Creator>
+    </Workout>
+  </Workouts>
+
+  <Author xsi:type="Application_t">
+    <Name>Garmin Training Center</Name>
+    <Build>
+      <Version>
+        <VersionMajor>3</VersionMajor>
+        <VersionMinor>1</VersionMinor>
+        <BuildMajor>5</BuildMajor>
+        <BuildMinor>0</BuildMinor>
+      </Version>
+      <Type>Release</Type>
+      <Time>Apr  4 2011, 11:59:50</Time>
+      <Builder>sqa</Builder>
+    </Build>
+    <LangID>en</LangID>
+    <PartNumber>006-A0183-00</PartNumber>
+  </Author>
+
+</TrainingCenterDatabase>
