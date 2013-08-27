@@ -158,12 +158,12 @@ Template by: www.TrainingPeaks.com</Notes>
     <Build>
       <Version>
         <VersionMajor>3</VersionMajor>
-        <VersionMinor>1</VersionMinor>
-        <BuildMajor>5</BuildMajor>
+        <VersionMinor>2</VersionMinor>
+        <BuildMajor>1</BuildMajor>
         <BuildMinor>0</BuildMinor>
       </Version>
       <Type>Release</Type>
-      <Time>Apr  4 2011, 11:59:50</Time>
+      <Time>Nov 9 2011, 10:09:03</Time>
       <Builder>sqa</Builder>
     </Build>
     <LangID>en</LangID>
